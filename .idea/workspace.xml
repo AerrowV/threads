@@ -5,29 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9fe6c075-0ccf-4c1f-9693-921e79d2683b" name="Changes" comment="new packages">
-      <change afterPath="$PROJECT_DIR$/src/main/java/sequentialwebprinter/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/sequentialwebprinter/ConnectionOne.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/sequentialwebprinter/ConnectionThree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/sequentialwebprinter/ConnectionTwo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/sequentialwebprinter/WebServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/runnableprinter/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/runnableprinter/PrintJob.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/runnableprinter/Printer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/threadprinter/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/threadprinter/PrintJob.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/threadprinter/Printer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/runnableprinter/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/runnableprinter/PrintJob.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/runnableprinter/Printer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/simplethreads/ThreadExercise02.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/simplethreads/WorkerCancelable.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/synchronization/Bank.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/synchronization/Bank.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/threadprinter/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/threadprinter/PrintJob.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sequentialwebprinter/PrintJob.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/threadprinter/Printer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sequentialwebprinter/Printer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/webprinter/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/concurrentwebprinter/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/webprinter/ClientHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/concurrentwebprinter/ClientHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/webprinter/ConnectionOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/concurrentwebprinter/ConnectionOne.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/webprinter/ConnectionThree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/concurrentwebprinter/ConnectionThree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/webprinter/ConnectionTwo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/concurrentwebprinter/ConnectionTwo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/webprinter/PrintJob.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/concurrentwebprinter/PrintJob.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/webprinter/Printer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/concurrentwebprinter/Printer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/webprinter/WebServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/concurrentwebprinter/WebServer.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,11 +30,23 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="solutions" />
+        <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;AerrowV&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/KongCPH/threads.git&quot;,
+    &quot;accountId&quot;: &quot;df1102a9-fdfc-4c30-a1da-e850f57b54ea&quot;
+  }
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 4
 }</component>
@@ -57,47 +55,49 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.ClientA.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ConnectionOne.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ConnectionThree.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ConnectionTwo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ThreadExercise02.executor&quot;: &quot;Run&quot;,
-    &quot;Application.WebServer.executor&quot;: &quot;Run&quot;,
-    &quot;Application.pausing.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.runnableprinter.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.sequentialprinter.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.synchronizedprinter.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.threadprinter.Main.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/kong/IdeaProjects/threads/src/main/java/startstoppauseandinterrupt&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/kong/IdeaProjects/threads/src/main/java/printthreads/Main.java&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.ClientA.executor": "Run",
+    "Application.ConnectionOne.executor": "Run",
+    "Application.ConnectionThree.executor": "Run",
+    "Application.ConnectionTwo.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.ThreadExercise02.executor": "Run",
+    "Application.WebServer.executor": "Run",
+    "Application.pausing.Main.executor": "Run",
+    "Application.runnableprinter.Main.executor": "Run",
+    "Application.sequentialprinter.Main.executor": "Run",
+    "Application.synchronizedprinter.Main.executor": "Run",
+    "Application.threadprinter.Main.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "sandbox",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/busin/Documents/F24_Sem2_Programming/UGE3_sem2/threads/src/main/java/runnableprinter",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "C:/Users/kong/IdeaProjects/threads/src/main/java/printthreads/Main.java",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\busin\Documents\F24_Sem2_Programming\UGE3_sem2\threads\src\main\java\runnableprinter" />
+      <recent name="C:\Users\busin\Documents\F24_Sem2_Programming\UGE3_sem2\threads\src\main\java\threadprinter" />
       <recent name="C:\Users\kong\IdeaProjects\threads\src\main\java\startstoppauseandinterrupt" />
       <recent name="C:\Users\kong\IdeaProjects\threads\src\main\java\synchronizedprinter" />
       <recent name="C:\Users\kong\IdeaProjects\threads\src\main\java\runnableprinter" />
-      <recent name="C:\Users\kong\IdeaProjects\threads\src\main\java\threadprinter" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="sequentialwebprinter" />
       <recent name="webprinter" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ConnectionTwo">
+  <component name="RunManager">
     <configuration name="ConnectionOne" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="sequentialwebprinter.ConnectionOne" />
       <module name="threads" />
@@ -165,9 +165,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ConnectionOne" />
         <item itemvalue="Application.ConnectionTwo" />
         <item itemvalue="Application.ConnectionThree" />
-        <item itemvalue="Application.ConnectionOne" />
         <item itemvalue="Application.WebServer" />
         <item itemvalue="Application.Main" />
       </list>
@@ -176,7 +176,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="jdk-17.0.10-corretto-17.0.10-f644763e9732-24fca987" />
+        <option value="bundled-jdk-9823dce3aa75-b114ca120d71-intellij.indexing.shared.core-IU-242.20224.419" />
+        <option value="bundled-js-predefined-d6986cc7102b-410509235cf1-JavaScript-IU-242.20224.419" />
       </set>
     </attachedChunks>
   </component>
@@ -193,6 +194,7 @@
       <workItem from="1724317124308" duration="1996000" />
       <workItem from="1724661242235" duration="615000" />
       <workItem from="1725279190878" duration="2803000" />
+      <workItem from="1725349596084" duration="1876000" />
     </task>
     <task id="LOCAL-00001" summary="Added package sequentialprinter">
       <option name="closed" value="true" />
@@ -219,6 +221,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added package sequentialprinter" />
     <MESSAGE value="new packages" />
-    <option name="LAST_COMMIT_MESSAGE" value="new packages" />
+    <MESSAGE value="bare skriv noget" />
+    <option name="LAST_COMMIT_MESSAGE" value="bare skriv noget" />
   </component>
 </project>
