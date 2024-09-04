@@ -7,65 +7,44 @@ import java.io.PrintWriter;
 import java.net.ServerSocket;
 import java.net.Socket;
 
-public class WebServer
-{
+public class WebServer {
 
     private static final int PORT = 9090;
 
-    private Socket clientSocket;
     private PrintWriter out;
     private BufferedReader in;
+    private Socket clientSocket;
     private boolean keepRunning;
-    public static void main(String[] args)
-    {
+
+    public static void main(String[] args) {
         WebServer server = new WebServer();
         server.startConnection(PORT);
     }
 
-    public void startConnection(int port)
-    {
-        try (ServerSocket serverSocket = new ServerSocket(port))
-        {
+    public void startConnection(int port) {
+        try (ServerSocket serverSocket = new ServerSocket(port)) {
             keepRunning = true;
-            while(keepRunning){
+            while (keepRunning) {
                 clientSocket = serverSocket.accept(); // blocking call
-                out = new PrintWriter(clientSocket.getOutputStream(), true);
-                in = new BufferedReader(new InputStreamReader(clientSocket.getInputStream()));
-                out.println("Hello client. What is your name?");
-                String name = in.readLine();
-                out.println("What would you like me to print?");
-                String msg = in.readLine();
-                out.println("How many prints would you like?");
-                int noOfPrints = Integer.parseInt(in.readLine());
-                out.println("Server is printing...");
-                Printer printer = Printer.getPrinter();
-                printer.print(new PrintJob(name, msg, noOfPrints));
+                new Thread(new clientHandler(clientSocket)).start();
 
 
             }
 
-        }
-        catch (IOException e)
-        {
+        } catch (IOException e) {
             e.printStackTrace();
-        }
-        finally
-        {
+        } finally {
             stopConnection();
         }
     }
 
-    public void stopConnection()
-    {
-        try
-        {
+    public void stopConnection() {
+        try {
             System.out.println("Closing down socket ...");
             in.close();
             out.close();
             clientSocket.close();
-        }
-        catch (IOException e)
-        {
+        } catch (IOException e) {
             throw new RuntimeException(e);
         }
     }
