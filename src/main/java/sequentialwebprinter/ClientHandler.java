@@ -5,15 +5,14 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.io.PrintWriter;
 import java.net.Socket;
-import java.net.ServerSocket;
 
-public class clientHandler implements Runnable {
+public class ClientHandler implements Runnable {
 
     private PrintWriter out;
     private BufferedReader in;
     private Socket clientSocket;
 
-    public clientHandler(Socket clientSocket) {
+    public ClientHandler(Socket clientSocket) {
         this.clientSocket = clientSocket;
     }
 

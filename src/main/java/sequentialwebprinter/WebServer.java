@@ -2,7 +2,6 @@ package sequentialwebprinter;
 
 import java.io.BufferedReader;
 import java.io.IOException;
-import java.io.InputStreamReader;
 import java.io.PrintWriter;
 import java.net.ServerSocket;
 import java.net.Socket;
@@ -26,7 +25,7 @@ public class WebServer {
             keepRunning = true;
             while (keepRunning) {
                 clientSocket = serverSocket.accept(); // blocking call
-                new Thread(new clientHandler(clientSocket)).start();
+                new Thread(new ClientHandler(clientSocket)).start();
 
 
             }

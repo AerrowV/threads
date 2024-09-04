@@ -4,12 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9fe6c075-0ccf-4c1f-9693-921e79d2683b" name="Changes" comment="new packages">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Sync/SyncClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/sequentialwebprinter/clientHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="9fe6c075-0ccf-4c1f-9693-921e79d2683b" name="Changes" comment="Made WebServer threaded">
+      <change afterPath="$PROJECT_DIR$/src/main/java/sequentialwebprinter/Observer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/sequentialwebprinter/ServerSideClient.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/sequentialwebprinter/WebServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sequentialwebprinter/WebServer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/synchronization/Bank.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/synchronization/Bank.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sequentialwebprinter/clientHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sequentialwebprinter/ClientHandler.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +18,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -194,7 +194,7 @@
       <workItem from="1725352677671" duration="938000" />
       <workItem from="1725358812415" duration="93000" />
       <workItem from="1725359315307" duration="9000" />
-      <workItem from="1725448591148" duration="5868000" />
+      <workItem from="1725448591148" duration="7079000" />
     </task>
     <task id="LOCAL-00001" summary="Added package sequentialprinter">
       <option name="closed" value="true" />
@@ -212,7 +212,15 @@
       <option name="project" value="LOCAL" />
       <updated>1724317791931</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Made WebServer threaded">
+      <option name="closed" value="true" />
+      <created>1725455786441</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1725455786441</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -222,6 +230,7 @@
     <MESSAGE value="Added package sequentialprinter" />
     <MESSAGE value="bare skriv noget" />
     <MESSAGE value="new packages" />
-    <option name="LAST_COMMIT_MESSAGE" value="new packages" />
+    <MESSAGE value="Made WebServer threaded" />
+    <option name="LAST_COMMIT_MESSAGE" value="Made WebServer threaded" />
   </component>
 </project>
